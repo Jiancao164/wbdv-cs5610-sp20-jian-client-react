@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Course Editor</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+              rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+              rel="stylesheet">
+        <link href="course.style.client.css"
+              rel="stylesheet">
+    </head>
+    <body>
+    <div class="container-fluid">
+        <h2>
+            <div class="row page-tab">
+                <div>
+                    <button class="btn wbdv-course-editor wbdv-close"><i class="far fa-window-close"></i></button>
+                </div>
+                <div class="col-4">
+                    CS5610 - WebDev
+                </div>
+
+                <div class="col-1">
+                    <a class="wbdv-page-tab nav-item" href="#">Build</a>
+                </div>
+                <div class="col-1">
+                    <a class="wbdv-page-tab nav-item" href="#">Page</a>
+                </div>
+                <div class="col-1">
+                    <a class="wbdv-page-tab nav-item" href="#">Theme</a>
+                </div>
+                <div class="col-1">
+                    <a class="wbdv-page-tab nav-item" href="#">Store</a>
+                </div>
+                <div class="col-1">
+                    <a class="wbdv-page-tab nav-item" href="#">Apps</a>
+                </div>
+                <div class="col-1">
+                    <a class="wbdv-page-tab nav-item" href="#">Settings</a>
+                </div >
+                <div class="col-1">
+                    <button class="btn wbdv-new-page-btn"><i class="far fa-plus-square"></i></button>
+                </div>
+            </div>
+        </h2>
+
+        <div class="row">
+            <div class="col-4 wbdv-module-list">
+
+                    <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 1 - jQuery
+                            <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                    </ul>
+                    <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 2 - React
+                                <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                    </ul>
+                    <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 3 - Redux
+                                <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                    </ul>
+                    <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 4 - Native
+                                <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                        </ul>
+                        <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 5 - Angular
+                                <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                        </ul>
+                        <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 6 - Node
+                                <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                        </ul>
+                        <ul class="wbdv-module-item">
+                        <li class="nav nav-link wbdv-module-item-title">
+                            <a class="nav-link" href="#">
+                                Module 7 - Mongo
+                                <span class="float-right"> <i class="fa fa-times wbdv-module-item-delete-btn"></i></span></a>
+                        </li>
+                        </ul>
+                        <button class="float-right btn wbdv-module-item-add-btn"><i class="far fa-plus-square"></i></button>            </div>
+            <div class="col-8">
+                <div>
+
+
+                    <br/>
+
+                    <ul class="nav wbdv-topic-pill-list">
+                        <li class="wbdv-topic-pill">
+                            <a class="nav-link" href="#">Topic 1</a>
+                        </li>
+                        <li class="wbdv-topic-pill">
+                            <a class="nav-link" href="#">Topic 2</a>
+                        </li>
+                        <li class="wbdv-topic-pill">
+                            <a class="nav-link" href="#">Topic 3</a>
+                        </li>
+                        <li class="wbdv-topic-pill">
+                            <a class="nav-link" href="#">Topic 4</a>
+                        </li>
+                        <button class="float-right btn wbdv-topic-add-btn"><i class="far fa-plus-square"></i></button>
+
+                </ul>
+                </div>
+
+                <br/>
+                <br/>
+
+                <div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-5">
+                                    <h4>Heading Widget</h4>
+                                </div>
+                                <div class="col-7">
+                                    <span class="float-right">
+                                        <button>Up</button>
+                                        <button>Down</button>
+                                        <select>
+                                            <option>Widget Type</option>
+                                            <option>Heading</option>
+                                            <option>YouTube</option>
+                                            <option>Slides</option>
+                                        </select>
+                                        <button>Delete</button>
+                                    </span>
+                                </div>
+                            </div>
+                            <input class="form-control jga-margin-bottom-15px" value="Heading Text"/>
+                            <select class="form-control jga-margin-bottom-15px">
+                                <option>Heading 1</option>
+                                <option>Heading 2</option>
+                                <option>Heading 3</option>
+                                <option>Heading 4</option>
+                            </select>
+                            <input class="form-control jga-margin-bottom-15px" placeholder="Widget name"/>
+                            <h4>Preview</h4>
+                            <h1>Heading Text</h1>
+                        </li>
+                        <li class="list-group-item">Widget 2</li>
+                        <li class="list-group-item">Widget 3</li>
+                        <li class="list-group-item">Widget 4</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test</title>
+    </head>
+    <body>
+        <h1 id="title">Hello</h1>
+        <h1>House</h1>
+        <ul>
+            <li id="rooms"></li>
+            <li id="baths"></li>
+            <li id="squareFeet"></li>
+        </ul>
+
+        <h1 id="hideMe">Hide Me</h1>
+        <h1 id="hideMeTimed">Hide Me 2</h1>
+        <button id="clickToHide">Click to hide</button>
+        <button id="clickToHideTimed">Hide timed</button>
+
+
+        <script>
+            var title = document.getElementById("title");
+            console.log(title);
+            title.innerHTML = "Welcome";
+
+            var today = new Date();
+            document.write("<h2>The Month</h2>")
+            document.write(today);
+            var scores = [90, 89, 78, 80];
+            document.write("<ul>");
+            for (var i in scores) {
+                document.write("<li>scores["+i+"] = " + scores[i]);
+                document.write("</li>");
+
+            }
+            document.write("</ul>");
+
+            var house = {
+                rooms: 3,
+                baths: 3,
+                sqf: 1300
+            };
+
+            document.getElementById("rooms").innerHTML = house.rooms;
+            document.getElementById("baths").innerHTML = house.baths;
+            document.getElementById("squareFeet").innerHTML = house.sqf;
+
+
+
+
+
+        </script>
+
+
+    </body>
+</html>
